@@ -1,4 +1,4 @@
-PML - Programming Assignment
+Coursera Practical Machine Learning - Programming Assignment
 ========================================================
 
 This Coursera course teaches us about Practical Machine Learning with R.
