@@ -1,4 +1,4 @@
-pml
+Practical Machine Learning
 ===
 
-This repository is for the Coursera Practical Machine Learning course
+This repository contains the code and generated report for the Coursera 'Practical Machine Learning' course
