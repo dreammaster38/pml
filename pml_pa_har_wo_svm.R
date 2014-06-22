@@ -18,7 +18,7 @@ cleanedData <- trainRawData[ ,colSums(is.na(trainRawData)) == 0]
 testing <- testingRawData[ ,colSums(is.na(trainRawData)) == 0]
 
 # data partitioning into training and cross validation set
-trainIndex <- createDataPartition(y = cleanedData$classe, p=0.2, list=FALSE) # 3927 rows
+trainIndex <- createDataPartition(y = cleanedData$classe, p=0.7, list=FALSE) # 3927 rows
 training <- cleanedData[trainIndex,]
 cross <- cleanedData[-trainIndex,]
 
