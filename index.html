@@ -8,14 +8,14 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
-    <title>Pml by dreammaster38</title>
+    <title>Coursera - Practica Machine Learning by dreammaster38</title>
   </head>
 
   <body>
 
     <header>
       <div class="container">
-        <h1>Pml</h1>
+        <h1>Coursera - Practica Machine Learning</h1>
         <h2>This repository is for the Coursera Practical Machine Learning course</h2>
 
         <section id="downloads">
@@ -202,7 +202,7 @@ skewValuesDf <span class="o">&lt;-</span> <span class="kt">data.frame</span><spa
 hist<span class="p">(</span>skewValues<span class="p">,</span> col<span class="o">=</span>heat.colors<span class="p">(</span><span class="m">17</span><span class="p">),</span> xlab<span class="o">=</span><span class="s">"Skewness of all predictors"</span><span class="p">,</span> breaks<span class="o">=</span><span class="m">20</span><span class="p">)</span>
 </pre></div>
 
-<p><img src="figure/unnamed-chunk-6.png" alt="plot of chunk unnamed-chunk-6"></p>
+<p><img src="./figure/unnamed-chunk-6.png" alt="plot of chunk unnamed-chunk-6"></p>
 
 <p>As you can see we have left-skewness and also right-skewness in our data set. So we need some pre-processing prior to fit our model.
 This step will be done directly in the preProcess step of caret's train function.</p>
@@ -312,7 +312,7 @@ ctrl <span class="o">&lt;-</span> trainControl<span class="p">(</span>method<spa
 ## E    0    1    0    5 2519    0.002376
 </code></pre>
 
-<p>As you can see the OOB error is ~0.25%. This is a good result.</p>
+<p>As you can see the OOB error is ~0.24%. This is a good result.</p>
 
 <p>Predict against our cross validation set created in step 2 to find out the accuracy of our model.</p>
 
